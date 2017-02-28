@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<img src="https://upload.wikimedia.org/wikipedia/en/d/d4/OasisDefinitelyMaybealbumcover.jpg">
+  <head>
+     <title align="center"><b> Definantly Maybe </b></title>
+  </head>
+  <div>
+       <h2 align="center"><a href="http://www.oasisinet.com/#!/home" target="_blank">Oasis</a></h2>
+       <h3 align="center"> August 29, 1994 </h3>  
+  </div>
+  <div>
+       <h1 align="center"> Band Members and Producers </h1>
+          <ul>
+            <li> Liam Gallagher - Lead Vocals </li>
+            <li> Noel Gallagher - Lead Guitarist </li>
+            <li> Bonehead Arthurs - Rhythm Guitar </li>
+            <li> Tony McCarroll - Drums </li>
+            <li> Guigsy McGuigen - Bass </li>
+            <li> Mark Coyle - Producer </li>
+          </ul>
+       <table width="100%"; border-bottom:"2px solid black;">
+          <caption> Tracks </caption>
+       <tr bgcolor="grey">
+          <hr size="2">
+          <th><b>Track #</b></th>
+          <th><b>Track Title</b></th>
+          <th><b>Track Length</b></th>
+       </tr>
+       <tr>
+          <td align="center">1</td>
+          <td align="center"> "Rock and Roll" </td>
+          <td align="center"> 5:24 </td>
+       </tr>
+       <tr>
+          <td align="center">2</td>
+          <td align="center">"Shakermaker"</td>
+          <td align="center">5:09</td>
+       </tr>
+       <tr>
+          <td align="center">3</td>
+          <td align="center">"Live Forever</td>
+          <td align="center">4:37</td>
+       </tr>
+       </table>
+    </div>
+ </body>
+</html>
+     
+    
+           
