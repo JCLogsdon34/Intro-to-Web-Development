@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<HTML lang= "en">
+    <H1> Formatting Page Demo </h1>
+        <body>
+           <p> This simple page demonstrates the formatting tags covered in this lesson. </p>
+    <h2>Bold and Strong</h2>
+        <dl>
+           <dt>Bold:</dt>
+              <dd> <b> Bold: This is bold text </b> </dd>     
+        </dl>
+          <p> The strong tag has the same visual effect as the bold tag but the 
+          strong tag also marks the enclosed text as more important. 
+          It is also easier for screen readers to read for the visually disabled.
+          </p>
+        <dl>
+          <dt> Strong: </dt>
+            <dd><strong> This is what strong text looks like. </strong></dd>
+         </dl>
+      <h2> Italics and Emphasis </h2>
+        <dl>
+          <dt> Italics: </dt>
+            <dd><i> This text is in italics </i> </dd>
+        </dl>
+        <p> The emphasis tag has the same visual effect as the italic tag but the emphasis tag also
+            marks the enclosed text as more important. 
+            It is also easier for screen readers to read.
+        </p>
+        <dl> Emphasis </dl>
+             <dt> Emphasis: </dt>
+                <dd><em> This is what emphasized text looks like. </em></dd>
+      <h2> Subscript and Superscript </h2>
+        <p> Subscript text looks like <sub>this</sub>. This is subscript. </p>
+        <p> Superscript text looks like <sup>this</sup>. This is superscript. </p>
+      <h2> Inserted and deleted </h2>
+         <p>Paragraph: Inserted text looks like this: <ins>This is inserted</ins>. </p>
+         <p>Paragraph: Deleted text looks like this: <del> This is deleted. </del> </p>
+      <h2> Marked </h2>
+         <p> Marked text looks like this: <mark> This is marked. </mark> </p>
+      <h2> Blockquote </h2>
+        <p>Paragraph: Blockquoted text looks like this: </p>
+         <blockquote> This is the blockquote. </blockquote>
+      <h2> Code </h2>
+        <p>Computer code text looks like this: <code> This is code. </code> </p>
+    </body>
+  </html>
+  
+         
+          
+          
+                
+        
+    
