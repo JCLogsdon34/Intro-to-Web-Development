@@ -1,0 +1,25 @@
+<iDOCTYPE HTML>
+     <HTML lang="en">
+	<Head>
+		<Title> Contact Us </Title>
+	</Head>
+		<Form Action="Contact Us.html" method="Post">
+			First Name: <input type="text" name="myTextInput" />
+			Last Name: <input type="text" name="myTextInput" />
+			Email: <input type="text" name="myTextInput" />
+			Radio Buttons: </br>
+				<input type="radio" name="answer" value="Business" checked/>Business</br>
+				<input type="radio" name="answer" value="Personal" checked/>Personal</br>
+			<select name="Reason">
+				<option value="Select a reason">Select a Reason</option>
+				<option value="Software Support">Software Support</option>
+				<option value="Hardware Support">Hardware Support</option>
+				<option value="Information Request">Information Request</option>
+			</select>
+		<textarea name="Additional Information"></textarea><br/>
+		<input type="checkbox" name="myChoices" value="I have read the terms of service" checked/>I have read the terms of service<br/>
+    		<input type="submit"/><br/>
+		
+</form>
+			
+	
