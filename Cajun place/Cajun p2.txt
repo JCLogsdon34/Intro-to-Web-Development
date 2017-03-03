@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+	<HTML lang="eng">
+		<Title>
+		    <Head> Home Page </Head>
+		</Title>
+	<H1><b> Jimbo's Cajun Eats </b></h1>
+   <div>
+	<a href="Resturant p1"><u>Home</u></a> <a href="Menu Page"><u>Menu</u></a> <a href="Contact Us"><u> Contact Us <u/> </a>
+    <div>
+	<body>
+         <center>
+		<p><img src="https://s-media-cache-ak0.pinimg.com/736x/c0/eb/45/c0eb45c9d7e6ee1e9ba78e3ccd2d60a8.jpg"></p>
+	   <h2><b>Resturant Description</b></h2>
+		<p> A Louisiana themed resturant featuring Cajun and Southern cuisine. We make everything from scratch
+		    here to preserve both the spirit and quality of our food. Happy Hours starts at 4:00pm and last until 
+	            7:00pm. We love friends, like us on Facebook! </p>
+	  </center>
+	</body>
+    </div>
+    <div>
+	<body>
+	    <Center>
+		 <p> Phillip Fulmer Way, Knoxville, TN 37916 </p>
+		 <p> (502) 555-7777 </p>
+	    </center>
+	</body>
+    </div>
