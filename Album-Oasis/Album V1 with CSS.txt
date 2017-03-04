@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title> Definantly Maybe </title>
+	<link rel="stylesheet" type="text/css" href="CssV1.css" media="screen" />
+	<style>
+		a: hover {
+    text-decoration: underline;
+  			}
+	</style>	
+  </head>
+  <div id="Album">
+	<h1 style="color:Blue;">Definantly Maybe</h1>
+        <h2> Oasis </h2>
+        <h3> August 29, 1994 </h3>
+          <body>
+            <p> Oasis came out with this album in 1994. People (and Liam) were saying that the frontman sang like John Lennon. I
+              was the begining of a rock and roll legend.
+            </p>
+   </div>
+    <div id="Band">
+       <h2> Band Members </h2>
+            <p> Liam Gallagher - Lead Vocals </p>
+            <p> Noel Gallagher - Lead Guitarist </p>
+            <p> Bonehead Arthurs - Rhythm Guitar </p>
+            <p> Tony McCarroll - Drums </p>
+            <p> Guigsy McGuigen - Bass </p>
+    </div>
+ </body>
+ </html>
+     
