@@ -1,7 +1,7 @@
 
 body
 	{
-		background-color: AliceBlue;
+		
 		font-family:"Times New Roman";
 	}
 span   
@@ -13,6 +13,7 @@ span
 		font-weight: bold;
 		font-size: 35px;
 		text-align: center;
+		background-color: white;
 	}
 
 
@@ -20,11 +21,12 @@ span
 	{
 		text-decoration: underline;
 		text-align: left;
-		
+		background-color: white;
 	}
 #Footer
 	{
 		text-align: center;
+		background-color: white;
 	}
 		
 
