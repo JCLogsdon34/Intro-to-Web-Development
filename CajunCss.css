@@ -1,7 +1,7 @@
 
 body
 	{
-		background-color: AliceBlue;
+		
 		font-family:"Times New Roman";
 	}
 span   
@@ -13,18 +13,32 @@ span
 		font-weight: bold;
 		font-size: 35px;
 		text-align: center;
+		background-color: white;
 	}
 
+a:hover {
+		font-weight: bold;
+	}
 
+a:link  {
+	    color: blue;
+	}
+
+a:visited{
+	    color: purple;
+	  }
 #Links 
 	{
-		text-decoration: underline;
+		font-weight: 
+		text-decoration: none;
 		text-align: left;
-		
+		background-color: white;
+		color: blue;
 	}
 #Footer
 	{
 		text-align: center;
+		background-color: white;
 	}
 		
 

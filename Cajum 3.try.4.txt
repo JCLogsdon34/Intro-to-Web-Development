@@ -1,0 +1,118 @@
+<iDOCTYPE HTML>
+     <HTML lang="en">
+		<Title>
+		    Contact Us
+		</Title>
+	 <div id="Head">
+	  <Head>
+		Jimbo's Cajun Eats 
+	<link rel="stylesheet" type="text/css" href="CajunCss.css" title="style">
+	 </Head>
+	</div>
+	<hr>
+   <div id="Links">
+	<a href="file:///C:/repos/Cajun%20p2.html">Home</a><span></span><a href="file:///C:/repos/cajun%20page1.html">Menu</a><span></span><a href="Contact Us">Contact Us</a>
+   </div>
+        <hr>
+	  <body>
+		 <Style>
+				  form{
+					display: inline-block;
+					vertical-align: text-top;
+    					text-align: justify;
+				      }
+			Input[type=text]{
+					margin: 25px 0;
+   				        box-sizing: border-box;
+					width: 250px;
+					
+					}
+				  select{		
+		    	          	margin: 25px 0;
+   					border: 2px;
+					border-radius: 2px;
+					width: 250px;
+					box-sizing: border-box;
+					}
+			        textarea{
+    					height: 120px;
+   					box-sizing: border-box;
+    					border: 2px 
+   					border-radius: 2px;
+    					resize: none;
+					margin: 25px 0;
+					vertical-align: text-top;
+					width: 250px;
+					}
+		      Input[type=submit]{
+					margin: 0;
+  				        text-decoration: none;
+    					cursor: pointer;
+					
+					padding: 4px 6px;
+					}
+		       Input[type=radio]{
+  				        text-decoration: none;
+    					margin: 25px 0;
+    					cursor: pointer;
+					}
+				#theform{
+					text-decoration: none;
+					font-weight: bold;
+					line-height: 1.4;
+					display: block;
+					text-align: center;
+					padding: 25px 100px 25px 100px;
+  					
+					}
+					
+					
+	       		 </style>
+		<Div id="theform">
+			<Form Action="Contact Us.html" method="Post">
+			Name:<span></span><input type="text"name="myTextInput" />
+			<br/>
+			Email:<span></span><input type="text"name="myTextInput" />
+			<br/>
+		      	Phone:<span></span><input type="text"name="myTextInput" />
+		  	<br/>
+
+		      <p>Reason for Inquiry:<span></span><select name="Reason for Inquiry">
+				    <option selected value="option1">Catering</option>
+				    <option value="option2">Private Party</option>
+				    <option value="option3">Feedback</option>
+				    <option value="option4">Other</option>
+			    </select></p> <br/>
+			 
+
+				<p>Additional Information:<span></span><textarea name="Additional Information"> 
+				</textarea></p>
+				
+				<br/>
+
+				<p>Have you been to this resturant?   
+				<input type="radio" name="no"value="No" />No
+				<input type="radio" name="yes"value="Yes" checked />Yes</p>
+				<br/>
+				<p>Best days to contact you:    
+				<input type="checkbox" name="answer"value="M" />M
+			     	<input type="checkbox" name="answer"value="T" />T
+				<input type="checkbox" name="answer"value="W" />W
+				<input type="checkbox" name="answer"value="Th" />Th
+				<input type="checkbox" name="answer"value="F" />F</p>
+				<br/>
+			
+    		  <p><input type="submit"/></p>
+		  </div>
+	</form>
+    
+<hr>
+   <div id="Footer">
+	
+		 <p> Phillip Fulmer Way, Knoxville, TN 37916 </p>
+		 <p> (502) 555-7777 </p>
+	
+    </div>
+  </body>		
+</HTML>
+	
