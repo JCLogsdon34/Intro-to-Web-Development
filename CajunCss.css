@@ -1,30 +1,39 @@
 
-body
-	{
-		background-color: AliceBlue;
+body {
+		
 		font-family:"Times New Roman";
+		background-color: AliceBlue;
 	}
-span   
-	{
-              padding-left: 25px;
+
+#head{
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
 	}
-#Head   
-	{
+
+a:hover {
+	font-weight: bold;
+	}
+
+a:link  {
+	    color: blue;
+	}
+
+a:visited{
+	    color: purple;
+	  }
+
+.navtabs {
+	
 		font-weight: bold;
-		font-size: 35px;
-		text-align: center;
-	}
-
-
-#Links 
-	{
-		text-decoration: underline;
-		text-align: left;
+		text-decoration: none;
+		background-color: white;
+		color: blue;
 		
 	}
 #Footer
 	{
 		text-align: center;
+		background-color: white;
 	}
 		
-
