@@ -2,12 +2,16 @@
 	{
 		background-color: AliceBlue;
 		font-family:"Times New Roman";
+		text-align: center;
 	}
 span   
 	{
               padding-left: 25px;
 	}
-	
+h1{
+	text-align: center;
+}
+
 #Head   
 	{
 		font-weight: bold;
@@ -25,6 +29,10 @@ span
 		a:visited{
 			color: Red;
 		}
+#Header
+{
+text-align: center;
+}
 #Footer
 	{
 		text-align: center;
