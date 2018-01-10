@@ -1,0 +1,31 @@
+﻿body
+	{
+		background-color: AliceBlue;
+		font-family:"Times New Roman";
+	}
+span   
+	{
+              padding-left: 25px;
+	}
+	
+#Head   
+	{
+		font-weight: bold;
+		font-size: 35px;
+		text-align: center;
+	}
+#Links 
+	{
+		text-decoration: underline;
+		text-align: left;
+		}
+		  a:hover{
+		  text-decoration: bold;
+		  }
+		a:visited{
+			color: Red;
+		}
+#Footer
+	{
+		text-align: center;
+	}	
