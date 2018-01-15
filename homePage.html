@@ -5,13 +5,17 @@
 			<title>
 			Home Page 
 			</title>
-	<link rel="stylesheet" type="text/css" href="resturantStyle.css" title="style">
-	 <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="resturantStyle.css" title="style">
+	<link rel="icon" href="http://getbootstrap.com/favicon.ico">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 	<link href="jumbotron-narrow.css" rel="stylesheet">
 			</head>
@@ -25,7 +29,7 @@
       <div class="modal-header">
         <h5 class="modal-title">JScript</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true"></span>
         </button>
       </div>
       <div class="modal-body">
@@ -43,25 +47,25 @@
         <p class="lead">New Location Opening! </p>
       </div>
 
-  <div id="myCarousel" class="carousel slide">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner">
+    <div class="item active">
       <div class="carousel-caption">
-	  <h3>New Location</h3>
-	  <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/c8/2e/e4/taberna-el-anfora.jpg" alt="New Locale!">  
+	  <img src="taberna-el-anfora.jpg" alt="New Locale!">
+        <h3>New Location</h3>
         <p>We will soon open at a brand new location</p>
       </div>
     </div>
 
     <div class="item">
       <div class="carousel-caption">
-	  <img src="https://www.drinkpreneur.com/wp-content/uploads/2017/04/drinkpreneur_2016-01-26-1453821995-8643361-beermain.jpg" alt="Beer!">
+	  <img src="GravityTap.jpg" alt="Beer!">
 		<h3>Drink of the Month</h3>
         <p>Our drink of the month is SG Brew!</p>
       </div>
@@ -69,8 +73,8 @@
 
     <div class="item">
       <div class="carousel-caption">
-	  <h3>New Season, New Menu</h3>
-	  <img src="http://www.greekboston.com/wp-content/uploads/2015/06/Popular-Herbs-and-Spices-of-Greek-Cuisine.jpg" alt="New Food!">
+	  <img src="Popular-Herbs-and-Spices-of-Greek-Cuisine.jpg" alt="New Food!">
+        <h3>New Season, New Menu</h3>
         <p>We are rolling out our new seasonal menu</p>
       </div>
     </div>
@@ -85,32 +89,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<script>
-$(document).ready(function(){
-    $("#myCarousel").carousel("pause");
-    $("#myBtn").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $("#myBtn2").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-});
-</script>
+
    <div id="Links">
   <ul class="nav nav-tabs">
   <li class="active"><a href="file:///C:/Users/JCLog/Desktop/chris-logsdon-individual-work/Intro-to-Web-Development/My%20Greek%20Resturnat/homePage.html"> <span class="glyphicon glyphicon-home"> </span></a></li>
@@ -119,7 +98,7 @@ $(document).ready(function(){
 </ul>
     </div>
 <hr>
-      <div style=text-align:center>   
+      <div style="text-align:center">   
 	  <img src="1200px-Naxos_Taverna.jpg">
 	   <h2>Resturant Description</h2>
 		<blockquote> A Traditional Greek Taberna, specializing in food from across Greece. We make everything from scratch
