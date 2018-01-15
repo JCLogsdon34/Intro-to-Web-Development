@@ -7,17 +7,23 @@
 			     vertical-align: middle;
 			     margin: 5px 0px 200px 0px;
 				 border: 1px solid black;
-			      width: 50%;
-			      height: 40px;
+			     width: 50%;
+			     height: 40px;
 
     			 text-align: center;
 			     font-weight: normal;
 			     font-size: 14px;
+				 }
 				 tbody tr:nth-child(even) {
                   background-color: RoyalBlue;
+				  }
                  tbody tr:nth-child(odd) {
                  background-color: white;
 			     }
+			 th{
+			 	 text-align:center;
+				 font-weight:bold;
+			 }
 	   </style>
 	 <title>Menu Page</title>
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,7 +122,9 @@
         <hr>
 	 <div id="table1">
 	   <table>		
-	     <caption> Dishes On Offer </caption>
+	    <tr>
+	     <th align=center style=font-size:18px colspan="3"> Entrees </th>
+		 </tr>
 	        <tr>
 	           <td>
 	    		  <h3>Horiatiki</h3> 
@@ -167,40 +175,42 @@
      </table>
 	 </div>
 	 </br>
-	 <div id="table2" style="text-align: center">
-	 <center>
-	 <table>		
-	     <center><caption>Beverages</caption></center>
+	 <div id="table2">
+	 
+	 <table align="center">		
+	        <thead>
+			<tr>
+			<th align="center" font-size=18px colspan="3">Beverages</th>
+			</tr>
+			</thead>
 	        <tr>
-	           <td>
-	    		  <h3>Ale-8-1</h3> 
-			          <p>$1.50</p> 
-       	   </td>
+	   <td>
+	    	 <h3> SG Ale  </h3> 
+			       <p> $1.50 </p> 
+       </td>
 	   <td> 
-	 		  <h3>Cheer Wine</h3>                                    
+	 		  <h3> SG Brew </h3>                                    
 				   <p>$1.95</p>  			
-           </td>
+       </td>
 	   <td> 
-	          <h3>Coke</h3> 
-				   <p>$1.25</p>
-	  </td>
-          </tr>
-	
-        <td> 
-	   		      <h3>Frape</h3> 
-				    <p>$3.75</p> 
-     	</td>
-        <td> 
-	     	 <h3>Coffee</h3> 
+	         <h3> Coke </h3> 
+			<p>$1.25</p>
+	   </td>
+       </tr>
+      <td> 
+	         <h3> Frape </h3> 
+			<p>$3.75</p> 
+      </td>
+      <td> 
+	     	 <h3> Coffee </h3> 
 			       <p>$1.95</p>
-	</td>
-        <td> 
-	         <h3>Cappacino</h3> 
-				      <p>$2.50</p>
+	  </td>
+      <td> 
+	        <h3> Cappacino </h3> 
+				   <p>$2.50</p>
 	</td>
       </tr>
      </table>
-	 </center>
 	 </div>
 <hr>
    <div id="Footer">
